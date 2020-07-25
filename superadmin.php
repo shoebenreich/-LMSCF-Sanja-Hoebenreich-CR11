@@ -54,12 +54,12 @@ if(isset($_SESSION['admin'])){
             if($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
                     echo  "<tr>
-                        <td><strong>" .$row['user_id']."</td>
-                        <td>" .$row['first_name']."</td>
-                        <td>" .$row['last_name']."</td>
-                        <td>" .$row['user_name']."</td>
-                        <td>" .$row['email']."</td>
-                        <td>" .$row['permissions']."</td>
+                        <td><strong>".$row['user_id']."</td>
+                        <td>".$row['first_name']."</td>
+                        <td>".$row['last_name']."</td>
+                        <td>".$row['user_name']."</td>
+                        <td>".$row['email']."</td>
+                        <td>".$row['permissions']."</td>
                         <td><a href='delete.php?id=".$row['user_id']."'><button class='btn btn-danger'>Delete</button></a>
                             <a href='update.php?id=".$row['user_id']."'><button class='btn btn-warning'>Edit</button></a></td>
                     </tr>" ;
@@ -70,7 +70,7 @@ if(isset($_SESSION['admin'])){
             ?>
     </tbody>
     </table>
-    <a href="addUser.php"<button class='btn btn-success w-100'>Add New User</button></a>
+    <a href="addUser.php"><button class='btn btn-success w-100'>Add New User</button></a>
     </div>
 </body>
 </html>

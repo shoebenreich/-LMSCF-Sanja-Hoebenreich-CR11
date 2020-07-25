@@ -52,9 +52,9 @@ if ($_GET['id']) {
            <tbody>
            <tr>
             <td><?php echo $data['user_id']?><input type="hidden" name="user_id" value="<?php echo $data['user_id']?>"></td>
-            <td><input name="first_name" type="text" placeholder="<?php echo $data['first_name']?>" value="<?php echo $data['first_name']?>"></td>
-            <td><input name="last_name" type="text" placeholder="<?php echo $data['last_name']?>" value="<?php echo $data['last_name']?>"></td>
-            <td><input name="user_name" type="text" placeholder="<?php echo $data['user_name']?>" value="<?php echo $data['user_name']?>"></td>
+            <td><input name="first_name" type="text" placeholder="<?php echo $data['first_name']?>"value="<?php echo $data['first_name']?>"></td>
+            <td><input name="last_name" type="text" placeholder="<?php echo $data['last_name']?>"value="<?php echo $data['last_name']?>"></td>
+            <td><input name="user_name" type="text" placeholder="<?php echo $data['user_name']?>"value="<?php echo $data['user_name']?>"></td>
             <td><input name="email" type="email" placeholder="<?php echo $data['email']?>" value="<?php echo $data['email']?>"></td>
             <td><input name="password" type="password" placeholder="change password here"></td>
             <td><select name="permissions">
